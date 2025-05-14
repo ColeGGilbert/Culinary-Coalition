@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a111080ef01f88c48bc655364a134ec5, type: 3}
+  m_Name: ColeTestPhase
+  m_EditorClassIdentifier: 
+  Served0:
+  - pattern: {fileID: 11400000, guid: d1ca59094e4f3ba4ab46c97d50e35a23, type: 2}
+    goodIngredientsToSpawn: 3
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: 79b38f579d08cd84485d3d1b3a0db00b, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: ecc93b56e7a486f419ea1b67cbc45b34, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: 3a45352803ec9934191844d98756f8b3, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  Served1: []
+  Served2: []
+  Random0: 0
+  Random1: 0
+  Random2: 0
+  Frederico:
+    pattern: {fileID: 11400000, guid: d9e8705f520fc8449905791d036dda9d, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  Tornado:
+    pattern: {fileID: 11400000, guid: 35ba078b2d4de154aba28435d41ba69d, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  bulletCountModifier: 1
+  badIngredientSpawnChance: 8
+  randomShotgunSpread: 1
+  maxSpreadAmount: 20
+  snowFallPower: 0.025
+  fredericoWaveGap: 3
+  canSpawnFrederico: 1
+  tornadoWaveGap: 4
+  canSpawnTornado: 1
+  goodIngredientWaveGap: 3
+  minigunFiringDuration: 1.5
+  normalShotFiringDuration: 0.5
+  sniperFiringDuration: 0.2

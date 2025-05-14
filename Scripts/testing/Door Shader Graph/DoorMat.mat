@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DoorMat
+  m_Shader: {fileID: -6465566751694194690, guid: bc40899c4e5e41245906dfd2f59d4621,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_CE2B62B0:
+        m_Texture: {fileID: 2800000, guid: 7fce48aa317dc844b9de8b504f9b0e60, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_54A458C3_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 7fce48aa317dc844b9de8b504f9b0e60, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_BF1FD0AB_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 7fce48aa317dc844b9de8b504f9b0e60, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1A222324: 0.1
+    - Vector1_239ADE6F: 0.0025
+    - Vector1_4E3E236A: 4
+    - Vector1_8276553E: 0.6
+    - Vector1_F36ED69E: 5
+    - Vector1_FB33FA4D: 0.0175
+    m_Colors:
+    - Color_82EE197: {r: 1.4435604, g: 0.4156849, b: 0.5149939, a: 0}

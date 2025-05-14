@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a111080ef01f88c48bc655364a134ec5, type: 3}
+  m_Name: C_Phase2(Hard)
+  m_EditorClassIdentifier: 
+  Served0:
+  - pattern: {fileID: 11400000, guid: 7138a136b4789564d8082f8d353c0ce1, type: 2}
+    goodIngredientsToSpawn: 2
+    canSpawnBadIngredients: 1
+  - pattern: {fileID: 11400000, guid: d1ca59094e4f3ba4ab46c97d50e35a23, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 1
+  - pattern: {fileID: 11400000, guid: 79b38f579d08cd84485d3d1b3a0db00b, type: 2}
+    goodIngredientsToSpawn: 2
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: 02ae692ef52434145be78505758e45da, type: 2}
+    goodIngredientsToSpawn: 2
+    canSpawnBadIngredients: 1
+  - pattern: {fileID: 11400000, guid: 79b38f579d08cd84485d3d1b3a0db00b, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: ecc93b56e7a486f419ea1b67cbc45b34, type: 2}
+    goodIngredientsToSpawn: 2
+    canSpawnBadIngredients: 1
+  Served1:
+  - pattern: {fileID: 11400000, guid: 28cea40d6d327854da9ba4f61257be02, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: ecc93b56e7a486f419ea1b67cbc45b34, type: 2}
+    goodIngredientsToSpawn: 4
+    canSpawnBadIngredients: 1
+  - pattern: {fileID: 11400000, guid: bf6876e95342dff48807f420b37318ae, type: 2}
+    goodIngredientsToSpawn: 3
+    canSpawnBadIngredients: 1
+  - pattern: {fileID: 11400000, guid: 02ae692ef52434145be78505758e45da, type: 2}
+    goodIngredientsToSpawn: 2
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: 79b38f579d08cd84485d3d1b3a0db00b, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  Served2: []
+  Random0: 0
+  Random1: 0
+  Random2: 0
+  Frederico:
+    pattern: {fileID: 0}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  Tornado:
+    pattern: {fileID: 0}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  bulletCountModifier: 0.53
+  badIngredientSpawnChance: 13
+  randomShotgunSpread: 1
+  maxSpreadAmount: 4
+  snowFallPower: 0.019
+  fredericoWaveGap: 0
+  canSpawnFrederico: 0
+  tornadoWaveGap: 0
+  canSpawnTornado: 0
+  goodIngredientWaveGap: 3
+  minigunFiringDuration: 1.5
+  normalShotFiringDuration: 0.5
+  sniperFiringDuration: 0

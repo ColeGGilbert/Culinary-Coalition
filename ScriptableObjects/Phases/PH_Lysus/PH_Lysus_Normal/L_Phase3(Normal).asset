@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a111080ef01f88c48bc655364a134ec5, type: 3}
+  m_Name: L_Phase3(Normal)
+  m_EditorClassIdentifier: 
+  Served0:
+  - pattern: {fileID: 11400000, guid: 7138a136b4789564d8082f8d353c0ce1, type: 2}
+    goodIngredientsToSpawn: 3
+    canSpawnBadIngredients: 1
+  - pattern: {fileID: 11400000, guid: 79b38f579d08cd84485d3d1b3a0db00b, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: 1a2170986bdd9254c90f59d633883812, type: 2}
+    goodIngredientsToSpawn: 1
+    canSpawnBadIngredients: 0
+  Served1:
+  - pattern: {fileID: 11400000, guid: 7138a136b4789564d8082f8d353c0ce1, type: 2}
+    goodIngredientsToSpawn: 3
+    canSpawnBadIngredients: 1
+  - pattern: {fileID: 11400000, guid: 8e99af7271a92ee48bd29418c2c7e21f, type: 2}
+    goodIngredientsToSpawn: 1
+    canSpawnBadIngredients: 1
+  - pattern: {fileID: 11400000, guid: 79b38f579d08cd84485d3d1b3a0db00b, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: 8c25f2c04e6d25340a58afbb64af5993, type: 2}
+    goodIngredientsToSpawn: 3
+    canSpawnBadIngredients: 1
+  - pattern: {fileID: 11400000, guid: 79b38f579d08cd84485d3d1b3a0db00b, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  Served2: []
+  Random0: 0
+  Random1: 0
+  Random2: 0
+  Frederico:
+    pattern: {fileID: 11400000, guid: d9e8705f520fc8449905791d036dda9d, type: 2}
+    goodIngredientsToSpawn: 3
+    canSpawnBadIngredients: 1
+  bulletCountModifier: 0.8
+  badIngredientSpawnChance: 10
+  randomShotgunSpread: 0
+  maxSpreadAmount: 0
+  fredericoWaveGap: 3
+  canSpawnFrederico: 1
+  goodIngredientWaveGap: 2
+  minigunFiringDuration: 1
+  normalShotFiringDuration: 0.5
+  sniperFiringDuration: 0

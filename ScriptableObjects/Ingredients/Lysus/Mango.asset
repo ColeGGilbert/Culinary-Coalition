@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f40a6de22141ce44ba3d90a8ce1450c, type: 3}
+  m_Name: Mango
+  m_EditorClassIdentifier: 
+  ingName: Mango
+  ingType: 2
+  points: 1
+  size: {x: 0.6, y: 0.6, z: 0.6}
+  modelPrefab: {fileID: 1276620754071973974, guid: c3788091ff6a10e43990b15b282bc7d5,
+    type: 3}
+  material: {fileID: 2100000, guid: 49b03c172666e0d45ac58432023f6bc3, type: 2}
+  cookedMaterial: {fileID: 2100000, guid: 2cb07c4f40ea3684e841a81dd99e0ace, type: 2}
+  ingredientImage: {fileID: 21300000, guid: ce4d556255518d4499847e449ae8ca6e, type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f40a6de22141ce44ba3d90a8ce1450c, type: 3}
+  m_Name: Watermelon
+  m_EditorClassIdentifier: 
+  ingName: Watermelon
+  ingType: 4
+  points: 1
+  size: {x: 0.7, y: 0.7, z: 0.7}
+  modelPrefab: {fileID: 9209218585518286242, guid: 771815d9e9b0f644e98bde0e36eda4c7,
+    type: 3}
+  material: {fileID: 2100000, guid: cf9892ba57984c94581572a939504b18, type: 2}
+  cookedMaterial: {fileID: 2100000, guid: e516776572d16cc42843b7a0560e5100, type: 2}
+  ingredientImage: {fileID: 21300000, guid: 28fab553007892e4db408910358bf113, type: 3}

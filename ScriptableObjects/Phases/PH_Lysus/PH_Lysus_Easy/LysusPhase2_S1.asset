@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a111080ef01f88c48bc655364a134ec5, type: 3}
+  m_Name: LysusPhase2_S1
+  m_EditorClassIdentifier: 
+  Served0:
+  - pattern: {fileID: 11400000, guid: 0c6770dab5b629647a6c485367f3ae4f, type: 2}
+    goodIngredientsToSpawn: 3
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: 79b38f579d08cd84485d3d1b3a0db00b, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  Served1: []
+  Served2: []
+  Random0: 0
+  Random1: 0
+  Random2: 0
+  Frederico:
+    pattern: {fileID: 0}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  bulletCountModifier: 0.3
+  badIngredientSpawnChance: 1
+  randomShotgunSpread: 1
+  maxSpreadAmount: 0
+  fredericoWaveGap: 0
+  canSpawnFrederico: 0
+  goodIngredientWaveGap: 1
+  minigunFiringDuration: 0
+  normalShotFiringDuration: 0
+  sniperFiringDuration: 0
+  canSpawnBadIngredients: 0

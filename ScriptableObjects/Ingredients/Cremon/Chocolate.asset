@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f40a6de22141ce44ba3d90a8ce1450c, type: 3}
+  m_Name: Chocolate
+  m_EditorClassIdentifier: 
+  ingName: Chocolate
+  ingType: 9
+  points: 1
+  size: {x: 0.35, y: 0.35, z: 0.35}
+  modelPrefab: {fileID: -8893676624640681770, guid: 4fd0fff3ddad3554680816819a80c591,
+    type: 3}
+  material: {fileID: 2100000, guid: 96c9c71259aa203429e32f68b105ed47, type: 2}
+  cookedMaterial: {fileID: 2100000, guid: b70403f24e9ae894482791fbe56cabd9, type: 2}
+  ingredientImage: {fileID: 21300000, guid: 48458afa9d61df040b758c26306b0138, type: 3}

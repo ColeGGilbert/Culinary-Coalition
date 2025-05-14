@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a111080ef01f88c48bc655364a134ec5, type: 3}
+  m_Name: L_Phase1(Normal)
+  m_EditorClassIdentifier: 
+  Served0:
+  - pattern: {fileID: 11400000, guid: 837923ce8c683cd40b214a9139bf0da0, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: 79b38f579d08cd84485d3d1b3a0db00b, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: ecc93b56e7a486f419ea1b67cbc45b34, type: 2}
+    goodIngredientsToSpawn: 3
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: ab949b564a26dbe43bcdd0a3d8095e1c, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  Served1:
+  - pattern: {fileID: 11400000, guid: ab949b564a26dbe43bcdd0a3d8095e1c, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: 79b38f579d08cd84485d3d1b3a0db00b, type: 2}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: ecc93b56e7a486f419ea1b67cbc45b34, type: 2}
+    goodIngredientsToSpawn: 3
+    canSpawnBadIngredients: 0
+  - pattern: {fileID: 11400000, guid: ecc93b56e7a486f419ea1b67cbc45b34, type: 2}
+    goodIngredientsToSpawn: 2
+    canSpawnBadIngredients: 0
+  Served2: []
+  Random0: 0
+  Random1: 0
+  Random2: 0
+  Frederico:
+    pattern: {fileID: 0}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  Tornado:
+    pattern: {fileID: 0}
+    goodIngredientsToSpawn: 0
+    canSpawnBadIngredients: 0
+  bulletCountModifier: 0.2
+  badIngredientSpawnChance: 1
+  randomShotgunSpread: 0
+  maxSpreadAmount: 1
+  snowFallPower: 0
+  fredericoWaveGap: 0
+  canSpawnFrederico: 0
+  tornadoWaveGap: 0
+  canSpawnTornado: 0
+  goodIngredientWaveGap: 2
+  minigunFiringDuration: 1.5
+  normalShotFiringDuration: 0.5
+  sniperFiringDuration: 0
